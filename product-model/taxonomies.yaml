@@ -1,0 +1,19 @@
+{
+  "scenarioKinds": [
+    {
+      "id": "primary",
+      "name": "Primary",
+      "description": "An established successful outcome."
+    },
+    {
+      "id": "validation",
+      "name": "Validation",
+      "description": "An established invalid-input or transition refusal."
+    },
+    {
+      "id": "edge",
+      "name": "Edge",
+      "description": "An established conflict, unavailable dependency, partial failure or recovery outcome."
+    }
+  ]
+}

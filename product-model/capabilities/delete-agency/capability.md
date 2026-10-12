@@ -1,0 +1,31 @@
+---
+{
+  "availability": [
+    {
+      "place": "kolconnect-desktop"
+    }
+  ],
+  "references": [
+    {
+      "kind": "code",
+      "role": "implementation",
+      "target": "webapp/pages/agencies.js"
+    },
+    {
+      "kind": "code",
+      "role": "implementation",
+      "target": "app/services/agency_service.py"
+    },
+    {
+      "kind": "code",
+      "role": "implementation",
+      "target": "app/storage/sqlite_agency_repository.py"
+    }
+  ],
+  "domain": "agencies"
+}
+---
+
+# Delete Agency
+
+Delete an unreferenced agency; creator/contact references block deletion. Detail deletion carries the user back to agency inventory.

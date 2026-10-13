@@ -14,9 +14,10 @@
   ],
   "limitations": [
     "Actual publications are recorded; the product does not publish content to social platforms.",
-    "Inbox synchronization observes bounded correspondence without sending mail.",
-    "Reference USD conversions use manually configured rates.",
-    "Production publication refresh currently returns unavailable or deferred."
+    "Data is kept in a local database on the person's own computer, and the workbench is served only to that computer.",
+    "The local database stays authoritative; Feishu Bitable receives a one-way replica of Creator and account information.",
+    "Inbox synchronization reads selected mailboxes without changing their messages.",
+    "Mixed-currency amounts are never added into one total; USD conversions use manually configured reference rates."
   ],
   "references": [
     {
@@ -60,4 +61,4 @@ KOLConnect is a local workbench for collecting creator-account information, revi
 
 ## Intent
 
-Keep canonical person/business identity distinct from platform identity, publication plans distinct from actual records, and original commercial currencies distinct from reference conversions.
+Manage overseas creators, campaign cooperation and publications in one local workbench, keeping each Creator distinct from their platform accounts, planned publication distinct from actual evidence and original currencies distinct from USD conversions.
